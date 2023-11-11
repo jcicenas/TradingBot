@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #4E3275;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.opiumbot.OpiumBotPage2Controller">
+   <children>
+      <Label alignment="CENTER" blendMode="SRC_ATOP" prefHeight="100.0" prefWidth="1920.0" style="-fx-background-color: white;" text="OpiumBot" textFill="#4e3275">
+         <font>
+            <Font name="Impact" size="40.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="459.0" fitWidth="457.0" layoutX="738.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images__3__-_Copy-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="42.0" layoutX="7.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images__3__-_Copy-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="7.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current Balance:" wrappingWidth="357.435546875">
+         <font>
+            <Font name="System Bold Italic" size="44.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="17.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current Assets:" wrappingWidth="336.82861328125">
+         <font>
+            <Font name="System Bold Italic" size="48.0" />
+         </font>
+      </Text>
+      <Button layoutX="1114.0" layoutY="116.0" mnemonicParsing="false" prefHeight="108.0" prefWidth="582.0" style="-fx-background-color: white;" text="Alg 1" textFill="#4e3275" fx:id="algButton1" onAction="#toScene3">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="1113.0" layoutY="226.0" mnemonicParsing="false" prefHeight="140.0" prefWidth="582.0" style="-fx-background-color: white;" text="Alg 2" textFill="#4e3275" fx:id="algButton2" onAction="#toScene3">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="1113.0" layoutY="373.0" mnemonicParsing="false" prefHeight="140.0" prefWidth="582.0" style="-fx-background-color: white;" text="Alg 3" textFill="#4e3275" fx:id="algButton3" onAction="#toScene3">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="1115.0" layoutY="519.0" mnemonicParsing="false" prefHeight="140.0" prefWidth="582.0" style="-fx-background-color: white;" text="Alg 4" textFill="#4e3275" fx:id="algButton4" onAction="#toScene3">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="1116.0" layoutY="666.0" mnemonicParsing="false" prefHeight="140.0" prefWidth="582.0" style="-fx-background-color: white;" text="Alg 5" textFill="#4e3275" fx:id="algButton5" onAction="#toScene3">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

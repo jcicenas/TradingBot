@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #4E3275;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.opiumbot.OpiumBotPage3Controller">
+   <children>
+      <Label alignment="CENTER" blendMode="SRC_ATOP" prefHeight="100.0" prefWidth="1920.0" style="-fx-background-color: white;" text="OpiumBot" textFill="#4e3275">
+         <font>
+            <Font name="Impact" size="40.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="50.0" fitWidth="41.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images__3__-_Copy-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="917.0" layoutY="808.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Balance:" wrappingWidth="177.046875">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Text>
+      <Button layoutX="594.0" layoutY="774.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="240.0" style="-fx-background-color: white;" text="Start" textFill="#4e3275">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="1223.0" layoutY="774.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="232.0" style="-fx-background-color: white;" text="End" textFill="#4e3275">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Button>
+      <LineChart layoutX="487.0" layoutY="158.0" prefHeight="570.0" prefWidth="1037.0" style="-fx-background-color: white;">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <TextField alignment="CENTER" layoutX="756.0" layoutY="327.0" prefHeight="159.0" prefWidth="475.0" promptText="Enter Stock Index E.X TLSA:" />
+      <TextField alignment="CENTER" layoutX="757.0" layoutY="327.0" prefHeight="159.0" prefWidth="475.0" promptText="Enter Stock Index E.X TLSA:" text="Enter Amount to be traded with:" visible="false">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font></TextField>
+   </children>
+</Pane>
